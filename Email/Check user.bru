@@ -1,0 +1,18 @@
+meta {
+  name: Check user
+  type: http
+  seq: 8
+}
+
+put {
+  url: htttp://localhost:5000/api/users/660ebf913c9ee28e6e03165
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "Bugavila",
+    "email": "Bugaliva@gmail.com"
+  }
+}
